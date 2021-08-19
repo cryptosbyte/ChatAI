@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Sup",
+        "Hi",
+        "Hey",
+        "Howdy",
+        "Wassup",
+        "Yo",
+        "Hola",
+        "Hello",
+        "What's up?",
+        "Whats up?"
+      ],
+      "responses": [
+        "What's up?",
+        "Howdy!",
+        "Hello!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Cya",
+        "Good night",
+        "Go away",
+        "K bye",
+        "Die",
+        "Disconnect"
+      ],
+      "responses": [
+        "Bye!",
+        "Have a nice day.",
+        "Cya.",
+        "Goodbye.",
+        "See you later."
+      ]
+    }
+  ]
+}
